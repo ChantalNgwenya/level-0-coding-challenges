@@ -1,4 +1,4 @@
-# Functon takes in a string and prints out the vowels
+
 def vowels(string):
     # to print the vowels
     for char in string.lower():
