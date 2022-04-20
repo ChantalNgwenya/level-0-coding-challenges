@@ -1,10 +1,10 @@
 
 def convert(sec):
-    # 1 hour = 60 min
+    
 
     hour = sec // 60
     sec %= 60
-    # 1 min = 60 sec
+   
     minutes = sec 
     if (hour==1 and minutes==1):
         print(hour, "hour", minutes, "minute")
@@ -15,5 +15,5 @@ def convert(sec):
     else:
     print(hour, "hour/s", minutes, "minute/s")
     
-sec = int(input("Enter the number: "))
+sec = 71
 convert(sec)
