@@ -1,18 +1,19 @@
 
-a = int(input("Enter first number:"))
-b = int(input("Enter second number:"))
-c = int(input("Enter third number:"))
+num1 = 1
+num2 = 2
+num3 =3
 
-def maximum(a, b, c):
 
-	if (a >= b) and (a >= c):
-		largest = a
+def maximum(num1,num2,num3):
 
-	elif (b >= a) and (b >= c):
-		largest = b
+	if (num1 >= num2) and (num1 >= num3):
+		largest = num1
+
+	elif (num2 >= num1) and (num2 >= num3):
+		largest = num2
 	else:
-		largest = c
+		largest = num3
 		
 	return largest
 
-print(maximum(a, b, c))
+print(maximum(num1,num2,num3))
