@@ -1,13 +1,10 @@
 
 def vowels(string):
-    # to print the vowels
-    for char in string.lower():
-        if char in "aeiou":
-            print(char, end=', ')
-    return char
+    
+    for character in string.lower():
+        if character in "aeiou":
+            print(character, end=', ')
+    return character
+string = "Umuzi"
 
-# take input
-string = input('Enter any string: ')
-
-# calling function
 vowels(string)
