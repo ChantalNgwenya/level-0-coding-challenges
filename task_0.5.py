@@ -1,11 +1,6 @@
-# Function to return the area of triangle.
-# All length sides must be positive
 
-# Enter first side
-x = float(input("Enter first side:"))
-#Enter second side
+x = float(input("Enter first side:")
 y =float(input("Enter second side:"))
-#Enter third side
 z = float(input("Enter third side"))
 
 def area_of_triangle(x,y,z,):
