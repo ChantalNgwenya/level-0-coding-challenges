@@ -1,22 +1,22 @@
 
 
-def celsius_to_fahrenheit(C):
-    F = C * (9/5) + 32
-    return F
+def celsius_to_fahrenheit(Celsius):
+    Fahrenheit = Celsius * (9/5) + 32
+    return Fahrenheit
 
-def fahrenheut_to_celsius(F):
-    C = F - 32 * (5/9)
-    return C
+def fahrenheut_to_celsius(Fahrenheit):
+    Celsius = Fahrenheit - 32 * (5/9)
+    return Celsius
 
-C = float(input("Enter temperature in degrees Celsius: "))
+Celsius = 100
 
-F = celsius_to_fahrenheit(C)
+Fahrenheit = celsius_to_fahrenheit(Celsius)
 
-print(f"{C} degrees Celsius = {F} degrees Fahrenheit")
+print(f"{Celsius} degrees Celsius = {Fahrenheit} degrees Fahrenheit")
 
 
-F = float( input("Enter temperature in degrees Fahrenheit: "))
+Fahrenheit = 200
 
-C = fahrenheit_to_celsius(F)
+Celsius = fahrenheit_to_celsius(Fahrenheit)
 
-print(f"{F} degrees fahrenheit = {C} degrees Celsius")
+print(f"{Fahrenheit} degrees fahrenheit = {Celsius} degrees Celsius")
