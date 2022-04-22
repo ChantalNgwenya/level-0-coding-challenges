@@ -12,7 +12,7 @@ def convert(sec):
     elif(hour >1 and minutes ==1):
         print(hour, "hours", minutes, "minute")
     else:
-    print(hour, "hour/s", minutes, "minute/s")
+    print(hour, "hours", minutes, "minutes")
     
 sec = 71
 convert(sec)
