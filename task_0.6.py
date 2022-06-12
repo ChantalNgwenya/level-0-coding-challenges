@@ -1,14 +1,7 @@
 
-num1 = 1
-num2 = 2
-num3 =3
-
-
 def maximum(num1,num2,num3):
-
 	if (num1 >= num2) and (num1 >= num3):
 		largest = num1
-
 	elif (num2 >= num1) and (num2 >= num3):
 		largest = num2
 	else:
@@ -16,4 +9,4 @@ def maximum(num1,num2,num3):
 		
 	return largest
 
-print(maximum(num1,num2,num3))
+print(maximum(1,2,3))
