@@ -4,7 +4,7 @@ def common_letters():
     string2 = "computers"
     s1 = set(string1.lower())
     s2= set(string2.lower())
-    lst = s1 & s2
-    print (lst)
+    letters = s1 & s2
+    print (', '.join(letters))
 
 common_letters()    
