@@ -1,11 +1,11 @@
 
-def maximum(num1,num2,num3):
-	if (num1 >= num2) and (num1 >= num3):
-		largest = num1
-	elif (num2 >= num1) and (num2 >= num3):
-		largest = num2
+def maximum(num_1,num_2,num_3):
+	if (num_1 >= num_2) and (num_1 >= num_3):
+		largest = num_1
+	elif (num_2 >= num_1) and (num_2 >= num_3):
+		largest = num_2
 	else:
-		largest = num3
+		largest = num_3
 		
 	return largest
 
