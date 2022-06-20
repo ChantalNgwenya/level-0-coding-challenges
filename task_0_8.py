@@ -6,13 +6,13 @@ def convert(sec):
     sec %= 60 
     minutes = sec 
     if (hour==1 and minutes==1):
-        print(hour, "hour", minutes, "minute")
+        print(f"{hour} hour,{minutes} minute")
     elif(hour==1 and minutes>1):
-        print(hour, "hour", minutes, "minutes")
+        print(f"{hour} hour, {minutes} minutes")
     elif(hour >1 and minutes ==1):
-        print(hour, "hours", minutes, "minute")
+        print(f"{hour} hours, {minutes} minute")
     else:
-        print(hour, "hours", minutes, "minutes")
+        print(f"{hour} hours, {minutes} minutes")
     
 sec = 71
 convert(sec)
