@@ -1,18 +1,20 @@
-def convert(sec):
-    hour = sec // 60
-    sec %= 60 
-    minutes = sec 
-    if(hour==1 and minutes==1):
-        print(f"{hour} hour,{minutes} minute")
+def convert(number):
+    hour = number // 60
+    number %= 60 
+    minutes = number 
+    if(hour==0 and minutes==1):
+        return f"{hour} hour,{minutes} minute"
+    elif(hour==1 and minutes==0):
+        return f'{hour} hour, {minutes} minutes'
+    elif (hour==0 and minutes>1):
+        return f'{hour} hour, {minutes} minutes'
     elif(hour==1 and minutes>1):
-        print(f"{hour} hour, {minutes} minutes")
-    elif(hour >2 and minutes ==1):
-        print(f"{hour} hours, {minutes} minute")
-    elif(hour<2 and minutes==1):
-        print(f"{hour} hour,{minutes} minute")
+        return f"{hour} hour, {minutes} minutes"
+    elif(hour>1 and minutes ==1):
+        return f"{hour} hours, {minutes} minute"
+    elif (hour==1 and hour==1):
+        return f'{hour} hour, {minutes} minute'
     else:    
-        print(f"{hour} hours, {minutes} minutes")
+        return f"{hour} hours, {minutes} minutes"
          
-    
-sec = 71
-convert(sec)
+print(convert(71))
