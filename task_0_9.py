@@ -12,6 +12,6 @@ def vowels(string):
         if letter not in vowels:
             vowels = vowels + letter +", "
     
-    print(f"Vowels: " + { vowels[:-2]}')
+    print(f"Vowels:  + { vowels[:-2]}")
   
 vowels('Umuzi')
