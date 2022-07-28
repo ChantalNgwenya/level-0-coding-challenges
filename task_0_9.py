@@ -5,7 +5,7 @@ def vowels(string):
 
     for letter in string:
        if letter.lower() in "aeiou":
-           duplicated_vowels = duplicated_vowels + str(letter.lower()) +" "
+           duplicated_vowels = duplicated_vowels + letter.lower() +" "
     
     
     for letter in duplicated_vowels:
